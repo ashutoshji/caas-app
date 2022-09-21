@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/caas-app/static/css/main.9696132b.css",
+    "main.js": "/caas-app/static/js/main.dacfcf1c.js",
+    "static/js/787.047fb006.chunk.js": "/caas-app/static/js/787.047fb006.chunk.js",
+    "static/media/logo.jpg": "/caas-app/static/media/logo.b9bcf97608249f5d1cae.jpg",
+    "static/media/license.jpg": "/caas-app/static/media/license.12e04f37ad2fed26ffe4.jpg",
+    "index.html": "/caas-app/index.html",
+    "main.9696132b.css.map": "/caas-app/static/css/main.9696132b.css.map",
+    "main.dacfcf1c.js.map": "/caas-app/static/js/main.dacfcf1c.js.map",
+    "787.047fb006.chunk.js.map": "/caas-app/static/js/787.047fb006.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9696132b.css",
+    "static/js/main.dacfcf1c.js"
+  ]
+}
