@@ -1,6 +1,7 @@
 {
   "name": "license-app",
   "version": "0.1.0",
+  "homepage": "https://ashutoshji.github.io/caas-app",
   "private": true,
   "dependencies": {
     "@govtechsg/sgds": "^2.0.0",
