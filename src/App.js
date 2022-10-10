@@ -1,27 +1,21 @@
 
 import React from 'react';
 import '@govtechsg/sgds/css/sgds.css';
-import { NavbarContainer } from './Components/Menu';
-import CaaSBreadcrumb from './Components/Breadcrumb'
-import CardContainer from './Components/Card';
+import {IntlProvider} from 'react-intl';
 import FooterComp from './Components/FooterComp';
-import Logo from './Components/logo';
+import Layout from './Pages/Layout';
 import './css/theme.css';
 import './css/styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <sgds-masthead fluid></sgds-masthead>
-      <section className="my-8 mx-md-8">
-        <NavbarContainer>
-          <Logo></Logo>
-        </NavbarContainer>
-        <CaaSBreadcrumb></CaaSBreadcrumb>
-        <CardContainer></CardContainer>
-      </section>
-      <FooterComp></FooterComp>
-    </div>
+    <IntlProvider locale="en">
+      <div className="App">
+        <sgds-masthead fluid></sgds-masthead>
+        <Layout></Layout>
+        <FooterComp></FooterComp>
+      </div>
+    </IntlProvider>
   );
 }
 

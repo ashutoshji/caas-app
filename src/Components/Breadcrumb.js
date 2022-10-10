@@ -2,18 +2,19 @@ import React from 'react';
 import { Row, Col } from '@govtechsg/sgds-react';
 import { Breadcrumb, BreadcrumbItem } from '@govtechsg/sgds-react';
 
-const CaaSBreadcrumb = () =>{
+const CaaSBreadcrumb = (props) => {
+    const { applyBreadCrumb } = props;
     return(
         <Row>
             <Col xs>
-                <Breadcrumb>
-                    <BreadcrumbItem href="https://www.designsystem.tech.gov.sg/">
-                        Apply
+                <Breadcrumb className={'mTop-30'}>
+                    <BreadcrumbItem href="/">
+                        {'Apply'}
                     </BreadcrumbItem>
-                    {/* <BreadcrumbItem href="https://github.com/GovTechSG/@govtechsg/sgds-react/">
-                        Library
+                    <BreadcrumbItem href="#">
+                        { applyBreadCrumb }
                     </BreadcrumbItem>
-                    <BreadcrumbItem active>
+                    {/* <BreadcrumbItem active>
                         Data
                     </BreadcrumbItem> */}
                 </Breadcrumb>

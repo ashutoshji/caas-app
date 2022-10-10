@@ -8,7 +8,7 @@ export const NavbarContainer = () => {
     setActive(eventKey);
   };
   return (
-    <Navbar>
+    <Navbar expand={"sm"}>
       <Navbar.Brand href="#">
         <Logo></Logo>
       </Navbar.Brand>
