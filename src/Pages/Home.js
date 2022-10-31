@@ -5,10 +5,10 @@ import CaaSBreadcrumb from '../Components/Breadcrumb';
 
 function Home() {
   return (
-      <>
-        <CaaSBreadcrumb></CaaSBreadcrumb>
-        <CardList></CardList>
-      </>
+    <>
+      <CaaSBreadcrumb></CaaSBreadcrumb>
+      <CardList></CardList>
+    </>
   );
 }
 

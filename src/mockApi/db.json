@@ -1,0 +1,407 @@
+{
+  "aerial-photo": {
+    "init-data": {
+      "applicationType": 1,
+      "aircraftTypes": [
+        {
+          "aircrftType": "Blimp/Airship",
+          "description": "Blimp/Airship"
+        },
+        {
+          "aircrftType": "CaptiveBalloon",
+          "description": "CaptiveBalloon"
+        },
+        {
+          "aircrftType": "Helicopter",
+          "description": "Helicopter"
+        }
+      ],
+      "countries": [
+        {
+          "id": "MY",
+          "countryName": "Singapore",
+          "citizenship": "Singaporean",
+          "telephoneCode": "+65"
+        },
+        {
+          "id": "SG",
+          "countryName": "Malaysia",
+          "citizenship": "Malaysian",
+          "telephoneCode": "+60"
+        }
+      ]
+    }
+  },
+  "craine": {
+    "init-data": {
+      "applicationType": 2,
+      "siteAddressTypes": [
+        {
+          "siteAddressType": "STD",
+          "description": "Standard"
+        },
+        {
+          "siteAddressType": "NSTD",
+          "description": "NonStandard"
+        }
+      ],
+      "countries": [
+        {
+          "id": "MY",
+          "countryName": "Singapore",
+          "citizenship": "Singaporean",
+          "telephoneCode": "+65"
+        },
+        {
+          "id": "SG",
+          "countryName": "Malaysia",
+          "citizenship": "Malaysian",
+          "telephoneCode": "+60"
+        }
+      ],
+      "craneMachinerySet": [
+        {
+          "id": "MPAF",
+          "machineryName": "A-FramePilingMachine",
+          "order": 1
+        },
+        {
+          "id": "DBIT",
+          "machineryName": "BitumenDistributor",
+          "order": 2
+        },
+        {
+          "id": "SBOB",
+          "machineryName": "BobcatSweeper",
+          "order": 3
+        },
+        {
+          "id": "LBOM",
+          "machineryName": "BoomLift",
+          "order": 4
+        },
+        {
+          "id": "MPBO",
+          "machineryName": "BoredPileMachine",
+          "order": 5
+        },
+        {
+          "id": "RBOR",
+          "machineryName": "BoringRig",
+          "order": 6
+        },
+        {
+          "id": "BULL",
+          "machineryName": "Bulldozer",
+          "order": 7
+        },
+        {
+          "id": "TCEM",
+          "machineryName": "CementMixerTruck",
+          "order": 8
+        },
+        {
+          "id": "PCON",
+          "machineryName": "ConcretePump",
+          "order": 9
+        },
+        {
+          "id": "CCRW",
+          "machineryName": "CrawlerCrane",
+          "order": 10
+        },
+        {
+          "id": "CTCR",
+          "machineryName": "CrawlerTowerCrane",
+          "order": 11
+        },
+        {
+          "id": "RDRI",
+          "machineryName": "DrillingRig",
+          "order": 12
+        },
+        {
+          "id": "TDUM",
+          "machineryName": "DumpTruck",
+          "order": 13
+        },
+        {
+          "id": "EXCA",
+          "machineryName": "Excavator",
+          "order": 14
+        },
+        {
+          "id": "LFOR",
+          "machineryName": "ForkLift",
+          "order": 15
+        },
+        {
+          "id": "RGIW",
+          "machineryName": "GIWRig",
+          "order": 16
+        },
+        {
+          "id": "GRAD",
+          "machineryName": "Grader",
+          "order": 17
+        },
+        {
+          "id": "BJCB",
+          "machineryName": "JCBTelescopicBoom",
+          "order": 18
+        },
+        {
+          "id": "EXLA",
+          "machineryName": "LongArmExcavator",
+          "order": 19
+        },
+        {
+          "id": "LORY",
+          "machineryName": "Lorry",
+          "order": 20
+        },
+        {
+          "id": "CLOR",
+          "machineryName": "LorryCrane",
+          "order": 21
+        },
+        {
+          "id": "TLBD",
+          "machineryName": "LowBedTransporter",
+          "order": 22
+        },
+        {
+          "id": "CLUF",
+          "machineryName": "LufferCrane",
+          "order": 23
+        },
+        {
+          "id": "MMIL",
+          "machineryName": "MillingMachine",
+          "order": 24
+        },
+        {
+          "id": "EXMN",
+          "machineryName": "MiniExcavator",
+          "order": 25
+        },
+        {
+          "id": "CMOB",
+          "machineryName": "MobileCrane",
+          "order": 26
+        },
+        {
+          "id": "PAVE",
+          "machineryName": "Paver",
+          "order": 27
+        },
+        {
+          "id": "RPIL",
+          "machineryName": "PilingRig",
+          "order": 28
+        },
+        {
+          "id": "DROT",
+          "machineryName": "PortableRotaryDrill",
+          "order": 29
+        },
+        {
+          "id": "CRRT",
+          "machineryName": "RTCrane",
+          "order": 30
+        },
+        {
+          "id": "TREF",
+          "machineryName": "RefuellingTruck",
+          "order": 31
+        },
+        {
+          "id": "ROLL",
+          "machineryName": "Roller",
+          "order": 32
+        },
+        {
+          "id": "ROLC",
+          "machineryName": "RollerCompactor",
+          "order": 33
+        },
+        {
+          "id": "LSCI",
+          "machineryName": "ScissorLift",
+          "order": 34
+        },
+        {
+          "id": "SKID",
+          "machineryName": "SkidLoader",
+          "order": 35
+        },
+        {
+          "id": "STAB",
+          "machineryName": "Stabilizer",
+          "order": 36
+        },
+        {
+          "id": "TTIP",
+          "machineryName": "TipperTruck",
+          "order": 37
+        },
+        {
+          "id": "CTOW",
+          "machineryName": "TowerCrane",
+          "order": 38
+        },
+        {
+          "id": "TPOT",
+          "machineryName": "TransportVehicle",
+          "order": 39
+        },
+        {
+          "id": "TVAC",
+          "machineryName": "VacuumTruck",
+          "order": 40
+        },
+        {
+          "id": "AUVB",
+          "machineryName": "VibroAuger",
+          "order": 41
+        },
+        {
+          "id": "EXVB",
+          "machineryName": "VibroExcavator",
+          "order": 42
+        },
+        {
+          "id": "MHVB",
+          "machineryName": "VibroHammerMachine",
+          "order": 43
+        },
+        {
+          "id": "TWAT",
+          "machineryName": "WaterTruck",
+          "order": 44
+        },
+        {
+          "id": "OTHR",
+          "machineryName": "Others(pleasespecify)",
+          "order": 45
+        }
+      ]
+    }
+  },
+  "ship": {
+    "init-data": {
+      "applicationType": 3,
+      "countries": [
+        {
+          "id": "MY",
+          "countryName": "Singapore",
+          "citizenship": "Singaporean",
+          "telephoneCode": "+65"
+        },
+        {
+          "id": "SG",
+          "countryName": "Malaysia",
+          "citizenship": "Malaysian",
+          "telephoneCode": "+60"
+        }
+      ],
+      "ship_reporting_points": [
+        {
+          "id": 1,
+          "reportingPointName": "AnglerBuoy",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "reportingPointName": "Point1",
+          "order": 2
+        },
+        {
+          "id": 4,
+          "reportingPointName": "PakuBuoy",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "reportingPointName": "WestTekong",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "reportingPointName": "MalangPapan",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "reportingPointName": "SquanceBuoy",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "reportingPointName": "Punggol",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "reportingPointName": "SeletarBuoy",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "reportingPointName": "103'54E",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "reportingPointName": "104'05E",
+          "order": 11
+        }
+      ]
+    }
+  },
+  "aerial-activity": {
+    "init-data": {
+      "applicationType": 4,
+      "siteAddressTypes": [
+        {
+          "siteAddressType": "FIREWORKS",
+          "description": "Fireworks/PyrotechnicsDisplay"
+        },
+        {
+          "siteAddressType": "BHOISTING",
+          "description": "HoistingofCaptiveBalloon/Blimp"
+        },
+        {
+          "siteAddressType": "KITE",
+          "description": "KiteFlying/Parasailing"
+        },
+        {
+          "siteAddressType": "LASERS",
+          "description": "Lasers/OtherLightsDisplay"
+        },
+        {
+          "siteAddressType": "BRELEASE",
+          "description": "ReleaseofBalloons"
+        },
+        {
+          "siteAddressType": "SLRELEASE",
+          "description": "ReleaseofSkyLanterns"
+        }
+      ],
+      "countries": [
+        {
+          "id": "MY",
+          "countryName": "Singapore",
+          "citizenship": "Singaporean",
+          "telephoneCode": "+65"
+        },
+        {
+          "id": "SG",
+          "countryName": "Malaysia",
+          "citizenship": "Malaysian",
+          "telephoneCode": "+60"
+        }
+      ]
+    }
+  }
+}

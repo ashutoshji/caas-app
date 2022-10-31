@@ -22,77 +22,101 @@
     }
 } */
 
-body, h1, h2, h3, h4{
+body,
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Lato', sans-serif;
-  }
+}
 
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .modal-title i {
-    display:none;
+    display: none;
 }
+
 .my-8 {
     margin-top: 2rem !important;
 }
+
 .mTop-10 {
     margin-top: 10px;
 }
+
 .mTop-50 {
     margin-top: 50px;
 }
+
 .mTop-30 {
     margin-top: 30px;
 }
+
 .mBot-20 {
     margin-bottom: 20px;
 }
+
 .mBot-30 {
     margin-bottom: 30px;
 }
+
 .row {
     padding-left: 15px;
     padding-right: 15px;
 }
-.navbar-brand{
+
+.navbar-brand {
     margin-right: 9rem;
 }
-.nav-item{
+
+.nav-item {
     margin-right: 8rem;
 }
-.breadcrumb{
+
+.breadcrumb {
     margin-left: 1.2rem;
     margin-bottom: 2rem;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
 }
-.breadcrumb a{
+
+.breadcrumb a {
     text-decoration: none;
 }
+
 .modal-dialog {
     min-width: 1024px;
 }
+
 .footer-subheader {
-    font-size:17px;
+    font-size: 17px;
     font-weight: 700;
     color: #fff;
     line-height: 1;
 }
+
 .footer-headertext {
     line-height: 1;
-    font-size:17px;
+    font-size: 17px;
     font-weight: 400;
     color: #fff;
     margin-top: 30px;
 }
 
-.sgds.footer .footer-header .title{
+.sgds.footer .footer-header .title {
     margin-bottom: 30px;
 }
 
@@ -100,7 +124,7 @@ body, h1, h2, h3, h4{
     color: #D6D6D6;
 }
 
-.btn-caas{
+.btn-caas {
     Padding: 8px 32px 8px 32px;
     font-weight: 400;
     font-size: 18px;
@@ -111,52 +135,62 @@ body, h1, h2, h3, h4{
     border-radius: 88px;
 }
 
-.btn-primary-caas{
+.btn-primary-caas {
     background-color: #C70068;
     border-color: #970c55;
     min-width: 172px;
 }
-.btn-primary:active{
+
+.btn-primary:active {
     background-color: #970c55;
     border-color: #970c55;
     color: #fff;
 }
-.btn-primary:focus, .btn-primary:hover{
+
+.btn-primary:focus,
+.btn-primary:hover {
     background-color: #970c55;
     border-color: #970c55;
     color: #fff;
 }
-.btn-default-caas{
+
+.btn-default-caas {
     background-color: #fff;
     color: #633AB3;
     min-width: 172px;
 }
-.btn-default-caas:focus, .btn-default-caas:hover{
+
+.btn-default-caas:focus,
+.btn-default-caas:hover {
     background-color: #970c55;
     color: #fff;
     border-color: #970c55;
 }
+
 .btn-gap {
-    margin-right: 16px;
+    margin-right: 8px;
 }
-.card.sgds{
+
+.card.sgds {
     background: #FFFFFF;
     border: 1px solid #D6D6D6;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
-.card.sgds:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+.card.sgds:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.cardtile-height{
+
+.cardtile-height {
     height: 64px;
 }
 
-.cardbody-height{
+.cardbody-height {
     height: 317px;
 }
 
-.cardtext-height{
+.cardtext-height {
     height: 124px;
 }
 
@@ -181,12 +215,13 @@ body, h1, h2, h3, h4{
     width: 17px;
     height: 17px;
     border: 1px solid #ddd;
-    border-left:none;
+    border-left: none;
     display: block;
     text-align: center;
     margin: 8.5px auto 0px;
     background-color: #eee;
 }
+
 .progressBar li:after {
     content: "";
     position: absolute;
@@ -194,7 +229,7 @@ body, h1, h2, h3, h4{
     height: 5px;
     background-color: #eee;
     border: 1px solid #ddd;
-    border-right:none;
+    border-right: none;
     top: 15px;
     left: -50%;
     z-index: -1;
@@ -216,6 +251,7 @@ body, h1, h2, h3, h4{
 .progressBar .active:after {
     background-color: dodgerblue;
 }
+
 /* stepper end*/
 
 .pad-0 {
@@ -237,69 +273,146 @@ body, h1, h2, h3, h4{
     font-weight: 400;
     color: #008649;
 }
-.btn-center{
+
+#RFS-StepButton.completed {
+    background-color: #008649;
+}
+
+.btn-center {
     text-align: center;
 }
 
 /* background: #FFFFFF;
 border: 4px solid #D6D6D6; */
 
-@media (min-device-width: 1281px){
-    form br {content: ' ';}
-    form br:after {content: ' ';}
+@media (min-device-width: 1281px) {
+    form br {
+        content: ' ';
+    }
+
+    form br:after {
+        content: ' ';
+    }
 }
-.react-bs-container-body{
+
+.react-bs-container-body {
     margin-top: -16px;
 }
-.react-bs-container-body td{
+
+.react-bs-container-body td {
     width: auto;
 }
+
 .react-bs-table-tool-bar {
     margin-bottom: 10px;
     margin-left: -15px;
 }
-.dark-color{
+
+.dark-color {
     background-color: #000;
 }
-.mLeft-15{
-    margin-left:15px;
+
+.mTop-70 {
+    margin-top: 60px;
 }
-.mRight-15{
-    margin-right: 15px;
-}
-.mLeft-26{
-    margin-left: 26px;
-}
-.mLeft-30{
-    margin-left: 30px;
-}
-.mRight-30{
-    margin-right: 30px;
-}
-.mLeft-15{
+
+.mLeft-15 {
     margin-left: 15px;
 }
-.mLeft-5{
+
+.mRight-15 {
+    margin-right: 15px;
+}
+
+.mLeft-26 {
+    margin-left: 26px;
+}
+
+.mLeft-30 {
+    margin-left: 30px;
+}
+
+.mRight-30 {
+    margin-right: 30px;
+}
+
+.mLeft-15 {
+    margin-left: 15px;
+}
+
+.mLeft-5 {
     margin-left: 5px;
 }
-.mRight-5{
+
+.mRight-5 {
     margin-right: 5px;
 }
-.mLeft-10{
+
+.mLeft-10 {
     margin-left: 10px;
 }
-.mRight-10{
+
+.mRight-10 {
     margin-right: 10px;
 }
-.mMinusLeft-15{
+
+.mMinusLeft-15 {
     margin-left: -15px;
 }
-.mMinusRight-15{
+
+.mMinusRight-20 {
+    margin-right: -20px;
+}
+.mMinusLeft-20 {
+    margin-left: -20px;
+}
+
+.mMinusRight-15 {
     margin-right: -15px;
 }
 
-@media screen and (min-width:76px) {
-    .navbar-brand{
+@media screen and (min-width:760px) {
+    .navbar-brand {
         margin-right: 2rem;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-gap {
+        margin-right: 8px
+    }
+}
+
+@media screen and (max-width:1413px) and (min-width: 550px) {
+    .modal-dialog {
+        min-width: auto;
+    }
+
+    .cardbody-height {
+        height: 400px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card .btn {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .cardtext-height {
+        height: 150px;
+        font-size: 90%;
+    }
+
+}
+
+.accordion-item {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.text-right {
+    float: right;
 }

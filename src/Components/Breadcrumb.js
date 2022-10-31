@@ -4,7 +4,7 @@ import { Breadcrumb, BreadcrumbItem } from '@govtechsg/sgds-react';
 
 const CaaSBreadcrumb = (props) => {
     const { applyBreadCrumb } = props;
-    return(
+    return (
         <Row>
             <Col xs>
                 <Breadcrumb className={'mTop-30'}>
@@ -12,7 +12,7 @@ const CaaSBreadcrumb = (props) => {
                         {'Apply'}
                     </BreadcrumbItem>
                     <BreadcrumbItem href="#">
-                        { applyBreadCrumb }
+                        {applyBreadCrumb}
                     </BreadcrumbItem>
                     {/* <BreadcrumbItem active>
                         Data

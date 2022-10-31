@@ -5,18 +5,18 @@ import Logo from '../Components/logo';
 import Home from "./Home";
 import Apply from "./Apply";
 
-const Layout = () =>{
-    return(
+const Layout = () => {
+    return (
         <>
             <section className="my-8 mx-md-8">
                 <NavbarContainer>
-                <Logo></Logo>
+                    <Logo></Logo>
                 </NavbarContainer>
                 <Router>
                     <Routes>
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/apply" element={<Apply/>}/>
-                    {/* <Route exact path="/recovery-password" element={<RecoveryPassword/>}/>
+                        <Route exact path="/" element={<Home />} />
+                        <Route exact path="/apply" element={<Apply />} />
+                        {/* <Route exact path="/recovery-password" element={<RecoveryPassword/>}/>
                     <Route path="*" element={<NotFound/>}/> */}
                     </Routes>
                 </Router>

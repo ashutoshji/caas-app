@@ -41,7 +41,7 @@ export const NavbarContainer = () => {
             >
               About
             </Nav.Link>
-            </Nav.Item>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -5,21 +5,7 @@ import Row from 'react-bootstrap/Row';
 export default function Dropdown(props) {
   const [input, setInput] = useState("");
   const [value, setValue] = useState();
-  const { onChange, title } = props;
-  const options = [
-    {
-      label: "Default",
-      value: 1
-    },
-    {
-      label: "Kite Flying / Parasail",
-      value: 2
-    },
-    {
-      label: "Release of balloons",
-      value: 3
-    }
-  ];
+  const { onChange, title, options } = props;
 
   const onSelect = (target) => {
     const value = target.value;
@@ -33,17 +19,16 @@ export default function Dropdown(props) {
   };
 
   return (
-            <div className="col-md-5 mLeft-30 mRight-30">
-            <Row >
-            {title}
-            </Row>
-            <Select
-                value={value}
-                options={options}
-                // onChange={onSelect}
-                onBlur={onBlurValue}
-                onChange={onSelect}
-            />
-            </div>
+    <div className="col-md-5 mLeft-30 mRight-30">
+      <Row >
+        {title}
+      </Row>
+      <Select
+        value={value}
+        options={options}
+        onBlur={onBlurValue}
+        onChange={onSelect}
+      />
+    </div>
   );
 }

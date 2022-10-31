@@ -1,9 +1,9 @@
 import React from "react";
 
 const Logo = () => {
-    return(
+    return (
         <>
-            <img src={process.env.PUBLIC_URL +  "/images/logo.jpg"} alt="CAAS" width="127px" height="71px"/>
+            <img src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="CAAS" width="127px" height="71px" />
         </>
     )
 }
